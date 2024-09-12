@@ -1,0 +1,7 @@
+function multiplicationTable(){
+    var num=2;
+    for(var i=1;i<=10;i++){
+        console.log(`${num} * ${i} = ${num*i}`);
+    }
+}
+multiplicationTable();
